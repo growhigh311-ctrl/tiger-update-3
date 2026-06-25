@@ -8,7 +8,7 @@ const faqs = [
     id: 'whatsapp-number',
     question: "Where can I find the Tiger365ID WhatsApp number?",
     answer:
-      "You can find our Tiger365 ID WhatsApp number directly on this website. Simply click any of the 'GET TIGER 365 ID' buttons and you will be redirected to our official WhatsApp where our team is available 24/7. Our number is +91 85578 77879. Please save this number and reach out for instant account setup.",
+      "You can find our Tiger365 ID WhatsApp number directly on this website. Simply click any of the 'GET TIGER 365 ID' buttons and you will be redirected to our official WhatsApp where our team is available 24/7. Our number is +91 75890 45547. Please save this number and reach out for instant account setup.",
   },
   {
     id: 'multiple-platforms',
