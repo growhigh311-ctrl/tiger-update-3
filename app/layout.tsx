@@ -6,7 +6,9 @@ import './globals.css';
 const inter = Inter({ subsets: ['latin'], weight: ['300', '400', '500', '600', '700', '800', '900'] });
 
 export const metadata: Metadata = {
-  title: 'Tiger 365 ID – Get Your Online Cricket Betting ID | Tiger365',
+  metadataBase: new URL('https://tiger365cricket.com'),
+  alternates: { canonical: '/' },
+  title: 'Tiger 365 ID â€“ Get Your Online Cricket Betting ID | Tiger365',
   description:
     'Tiger365 ID is your trusted online cricket betting ID provider. Get instant access to premium sports betting, live cricket, casino games, and Aviator with 24/7 support. INR accepted.',
   keywords: [
@@ -23,7 +25,7 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: 'Tiger 365 ID' }],
   openGraph: {
-    title: 'Tiger 365 ID – Online Cricket Betting ID Provider',
+    title: 'Tiger 365 ID â€“ Online Cricket Betting ID Provider',
     description: 'Get your Tiger365 ID and start betting on cricket, football, and live casino games. 24/7 support. Instant setup.',
     type: 'website',
     locale: 'en_IN',
