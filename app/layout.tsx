@@ -8,6 +8,9 @@ const inter = Inter({ subsets: ['latin'], weight: ['300', '400', '500', '600', '
 export const metadata: Metadata = {
   metadataBase: new URL('https://tiger365cricket.com'),
   alternates: { canonical: '/' },
+  verification: {
+    google: '11Kk48JuDZOGaOotSGtLx2YB9GNvm2MeYtBWXwLV2PM',
+  },
   title: 'Tiger 365 ID â€“ Get Your Online Cricket Betting ID | Tiger365',
   description:
     'Tiger365 ID is your trusted online cricket betting ID provider. Get instant access to premium sports betting, live cricket, casino games, and Aviator with 24/7 support. INR accepted.',
