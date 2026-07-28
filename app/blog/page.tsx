@@ -11,6 +11,18 @@ export const metadata: Metadata = {
 
 const blogPosts = [
   {
+    id: 'cpl-2026-betting-strategy',
+    title: 'CPL 2026 Betting Strategy: Mastering Momentum and Home-Block Schedules',
+    excerpt: 'Betting on CPL 2026? Learn how to exploit the unique "consecutive home game" schedule and analyze momentum as the tournament moves through the Caribbean.',
+    category: 'Cricket Betting',
+    date: 'July 28, 2026',
+    readTime: '6 min read',
+    emoji: '🏏',
+    color: 'from-blue-900/30 to-black',
+    buttonText: 'Show More',
+    customHref: '/cpl-2026-betting-strategy/',
+  },
+  {
     id: 'ipl-betting-tips-2024',
     title: 'Top IPL Betting Tips for 2026 Season',
     excerpt: 'Get the best strategies for IPL betting this season. Learn how to analyze team performance, pitch conditions, and player form to maximize your winnings.',
@@ -147,10 +159,10 @@ export default function BlogPage() {
                   <div className="flex items-center justify-between pt-4 border-t border-gray-800">
                     <span className="text-gray-700 text-xs">{post.date}</span>
                     <Link
-                      href={`/blog/${post.id}`}
+                      href={post.customHref || `/blog/${post.id}`}
                       className="text-blue-500 hover:text-blue-400 text-sm font-medium transition-colors flex items-center gap-1"
                     >
-                      Read More
+                      {post.buttonText || 'Read More'}
                       <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                       </svg>
