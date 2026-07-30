@@ -5,8 +5,8 @@ import Link from 'next/link';
 import { WA_LINK } from '@/components/constants';
 
 export const metadata: Metadata = {
-  title: 'Blog – Tiger 365 ID | Cricket Betting Tips & News',
-  description: 'Read the latest cricket betting tips, strategies, and news from Tiger365 ID. Stay updated with IPL, T20 World Cup, and sports betting insights.',
+  title: 'Tiger365 Cricket Blog | Betting Tips, Match Predictions & Guides',
+  description: 'Read expert cricket betting tips, IPL predictions, match analysis, betting strategies, and sports betting guides to maximize your winnings.',
 };
 
 const blogPosts = [
