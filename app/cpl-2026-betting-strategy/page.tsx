@@ -5,8 +5,8 @@ import Link from 'next/link';
 import { WA_LINK } from '@/components/constants';
 
 export const metadata: Metadata = {
-  title: 'CPL 2026 Betting Strategy: Mastering Momentum and Home-Block Schedules',
-  description: 'Betting on CPL 2026? Learn how to exploit the unique "consecutive home game" schedule and analyze momentum as the tournament moves through the Caribbean.',
+  title: 'CPL 2026 Betting Strategy | Expert Cricket Betting Tips',
+  description: 'Discover the best CPL 2026 betting strategies, match predictions, odds analysis, bankroll management tips, and insights for the Caribbean Premier League.',
 };
 
 export default function CplBettingStrategyPage() {

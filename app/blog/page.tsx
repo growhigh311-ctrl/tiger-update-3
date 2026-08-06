@@ -5,11 +5,23 @@ import Link from 'next/link';
 import { WA_LINK } from '@/components/constants';
 
 export const metadata: Metadata = {
-  title: 'Blog – Tiger 365 ID | Cricket Betting Tips & News',
-  description: 'Read the latest cricket betting tips, strategies, and news from Tiger365 ID. Stay updated with IPL, T20 World Cup, and sports betting insights.',
+  title: 'Tiger365 Cricket Blog | Betting Tips, Match Predictions & Guides',
+  description: 'Read expert cricket betting tips, IPL predictions, match analysis, betting strategies, and sports betting guides to maximize your winnings.',
 };
 
 const blogPosts = [
+  {
+    id: 'ultimate-cricket-guide-for-beginners',
+    title: 'Ultimate Cricket Guide for Beginners | Rules, Formats & Stats',
+    excerpt: 'Learn cricket from the basics. Understand rules, formats, scorecards, fielding positions, pitch reports, player statistics, and match analysis in one guide.',
+    category: 'Beginner Guide',
+    date: 'August 6, 2026',
+    readTime: '8 min read',
+    emoji: '🏏',
+    color: 'from-blue-900/30 to-black',
+    buttonText: 'Show More',
+    customHref: '/ultimate-cricket-guide-for-beginners/',
+  },
   {
     id: 'cpl-2026-betting-strategy',
     title: 'CPL 2026 Betting Strategy: Mastering Momentum and Home-Block Schedules',
