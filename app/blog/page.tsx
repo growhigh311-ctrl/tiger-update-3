@@ -11,6 +11,18 @@ export const metadata: Metadata = {
 
 const blogPosts = [
   {
+    id: 'ultimate-cricket-guide-for-beginners',
+    title: 'Ultimate Cricket Guide for Beginners | Rules, Formats & Stats',
+    excerpt: 'Learn cricket from the basics. Understand rules, formats, scorecards, fielding positions, pitch reports, player statistics, and match analysis in one guide.',
+    category: 'Beginner Guide',
+    date: 'August 6, 2026',
+    readTime: '8 min read',
+    emoji: '🏏',
+    color: 'from-blue-900/30 to-black',
+    buttonText: 'Show More',
+    customHref: '/ultimate-cricket-guide-for-beginners/',
+  },
+  {
     id: 'cpl-2026-betting-strategy',
     title: 'CPL 2026 Betting Strategy: Mastering Momentum and Home-Block Schedules',
     excerpt: 'Betting on CPL 2026? Learn how to exploit the unique "consecutive home game" schedule and analyze momentum as the tournament moves through the Caribbean.',
